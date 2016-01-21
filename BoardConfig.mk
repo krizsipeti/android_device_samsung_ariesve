@@ -186,37 +186,5 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_SEPOLICY_DIRS += \
     device/samsung/ariesve/sepolicy
 
-BOARD_SEPOLICY_UNION += \
-    file_contexts \
-    genfs_contexts \
-    property_contexts \
-    bridge.te \
-    camera.te \
-    device.te \
-    dhcp.te \
-    domain.te \
-    file.te \
-    geomagneticd.te \
-    healthd.te \
-    init.te \
-    kernel.te \
-    mac_update.te \
-    mediaserver.te \
-    netd.te \
-    orientationd.te \
-    platform_app.te \
-    property.te \
-    rild.te \
-    rmt.te \
-    su.te \
-    surfaceflinger.te \
-    system_app.te \
-    system_server.te \
-    tee.te \
-    ueventd.te \
-    untrusted_app.te \
-    vold.te \
-    wpa_supplicant.te
-
 # Hardware tunables
 BOARD_HARDWARE_CLASS := device/samsung/ariesve/cmhw/
