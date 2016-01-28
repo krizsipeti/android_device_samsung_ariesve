@@ -130,7 +130,7 @@
     <integer name="config_backKillTimeout">1500</integer>
 
     <!-- Is the device LTE capable -->
-    <bool name="config_lte_capable">false</bool>
+    <!-- <bool name="config_lte_capable">false</bool> -->
 
     <!-- Boolean to enable stk functionality on Samsung phones -->
     <bool name="config_samsung_stk">true</bool>
@@ -167,7 +167,7 @@
     <integer name="config_deviceHardwareWakeKeys">65</integer>
 
     <!-- Default, comma-delimited, quick settings tiles. See QSConstants.java for a list of all available tiles -->
-    <string name="config_defaultQuickSettingsTiles">wifi,bt,cell,airplane,rotation,location</string>
+    <!-- <string name="config_defaultQuickSettingsTiles">wifi,bt,cell,airplane,rotation,location</string> -->
 
     <!-- Enable lockscreen translucent decor -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
