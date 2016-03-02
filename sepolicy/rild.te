@@ -16,4 +16,4 @@ allow rild radio_data_file:file rw_file_perms;
 allow rild mediaserver:binder { transfer call };
 allow rild system_prop:property_service set;
 allow rild system_data_file:dir rw_dir_perms;
-allow rild system_data_file:file { create read write };
+allow rild system_data_file:file read;
